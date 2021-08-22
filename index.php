@@ -1,13 +1,12 @@
-<?php 
-include('header.php');
-?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>csvtojson</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script type="text/javascript" src="convert.js"></script>
-<?php include('container.php');?>
-<div class="container">
-	<h2>Example: Convert CSV to JSON using JavaScript</h2>	
+<div class="container">	
 	<div class="form-group">
 		<label for="csvData">CSV Data input</label>
 		<textarea id="csvData" class="form-control" rows="6">
@@ -25,6 +24,9 @@ include('header.php');
 	</div>    
     <button id="convertCSV" class="btn btn-success">Convert to JSON</button>		
 </div>
-<?php include('footer.php');?>
+<div class="insert-post-ads1" style="margin-top:20px;">
+</div>
+</div>
+</body></html>
 
 
